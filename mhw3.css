@@ -1,0 +1,102 @@
+body{
+    background-image:url("./images/background.jpg");
+    background-size:cover;
+}
+
+#title{
+    width:99.7%;
+    height:auto;
+    background-color:#1e86c3;
+    text-align:center;
+    font-family:'Comic Sans MS';
+    padding:4px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+#backgroundTitle {
+    width: 33%;
+    height: auto;
+    text-align: center;
+    background-color:#84cffb;
+    color:white;
+    text-shadow:2px 2px 2px #4df2f7;
+}
+
+#listAnime{
+    background-color:rgba(255, 255, 255, 0.52);
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    justify-items:center;
+    align-items:center;
+    width:100%;
+    margin-top:3vh;
+    height:auto;
+}
+
+.Item{
+    background-color:rgba(78, 230, 165, 0.23);
+    border:3px dashed rgba(8, 45, 168, 0.37);
+    width:80%;
+    height:auto;
+    margin:15px 0px 15px 0px;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.Item img{
+    width:10%;
+    height:90%;
+}
+
+.Info{
+    width:80%;
+    height:auto;
+}
+
+.Info h1{
+    text-align:center;
+    font-size:2vw; 
+}
+
+
+.Info h3{
+    font-size:1.5vw; 
+    margin:1vw;
+}
+
+.Info a{
+    padding-left:3vh;
+    margin-bottom:40px;
+}
+
+
+.Info h1, .Info h3{
+    color:rgba(255, 255, 255, 0.52);
+    text-shadow:1px 1px 1px black;
+}
+
+#SearchFilters{
+    background-color:rgba(132, 207, 251, 0.54);
+    height:auto;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin-top:30px;
+    text-align:center;
+}
+
+#SearchFilters span{
+    color:white;
+    text-shadow:1px 1px 2px black;
+    font-family:'Trebuchet MS';
+}
+
+#SearchFilters span, #SearchFilters select{
+    margin:0px 5px 0px 5px;
+}
